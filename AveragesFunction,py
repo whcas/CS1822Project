@@ -1,13 +1,6 @@
-class Expense:
-    def __init__(self, Description, Category, Amount):
-        self.Description = Description
-        self.Category = Category
-        self.Amount = Amount
-        
-    def Average():
-        for i in range(len(list_of_expenses)):
-            total = total + list_of_expenses.amount[i]
-            
-        Avg = total/(len(list_of_expenses))
-        print(int(Avg))
+def Average(list_of_expenses):
+    for i in range(len(list_of_expenses)):
+        total = total + list_of_expenses.amount[i]    
+    Avg = total/(len(list_of_expenses))
+    print(int(Avg))
         
