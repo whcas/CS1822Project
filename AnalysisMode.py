@@ -1,5 +1,6 @@
 from AveragesFunftion import *
-from Total import *
+from Total_Expenditure import *
+from Breakdown import * 
 
 def AnalysisMode(Expenses):
     print("Analysis Mode")
