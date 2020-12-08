@@ -1,0 +1,9 @@
+class Item:
+
+    def __init__(self, description, category, amount):
+      self.description = description 
+      self.category = cateory 
+      slf.amount = amount
+      
+   def get_description(self):
+      return 
