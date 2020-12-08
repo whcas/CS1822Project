@@ -1,6 +1,6 @@
 def Average(list_of_expenses):
     for i in range(len(list_of_expenses)):
-        total = total + list_of_expenses.amount[i]    
+        total += list_of_expenses[i].amount
     Avg = total/(len(list_of_expenses))
-    print(int(Avg))
+    return (int(Avg))
         
