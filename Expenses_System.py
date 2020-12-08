@@ -1,5 +1,6 @@
 from Expense import *
 from AnalysisMode import *
+from editMode import *
 
 Expenses = []
 
@@ -11,7 +12,7 @@ while running == True:
     print("To exit the program type Exit")
     Choice = input()
     if Choice == 1:
-        pass
+        EditMode(Expenses)
     elif Choice == 2:
         AnalysisMode(Expenses)
     elif Choice == "Exit":
