@@ -1,3 +1,7 @@
+import Expense
+
+Expenses = []
+
 running = True
 while running == True:
     print("Main Menu")
