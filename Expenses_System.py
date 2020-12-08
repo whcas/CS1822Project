@@ -1,4 +1,5 @@
-import Expense
+from Expense import *
+from AnalysisMode import *
 
 Expenses = []
 
@@ -12,6 +13,6 @@ while running == True:
     if Choice == 1:
         pass
     elif Choice == 2:
-        pass
+        AnalysisMode(Expenses)
     elif Choice == "Exit":
         running = False
